@@ -1,0 +1,18 @@
+<!-- Categories -->
+      <section class="container categories">
+         <h2 class="section-title">Categories</h2>
+         <div class="categories flex">
+            <div class="Categories-card  flex">
+               <h2>Watch</h2>
+               <img src="./assets/category-watch.png">
+            </div>
+            <div class="Categories-card1 flex">
+               <h2>Bag</h2>
+               <img src="./assets/category-bag.png">
+            </div>
+            <div class="Categories-card flex">
+               <h2>Shoes</h2>
+               <img src="./assets/category-shoe.png">
+            </div>
+         </div>
+      </section>
