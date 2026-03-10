@@ -1,10 +1,12 @@
 /* Responsive for mobile */
 @media screen and (max-width:640px) {
+
     /* nav menu bar */
-    .nav-bar{
+    .nav-bar {
         margin-top: 0;
         margin-bottom: 20px;
     }
+
     .fa-bars {
         font-size: 1.5rem;
     }
@@ -23,10 +25,11 @@
     .hero-content {
         padding-left: 0px;
     }
-.hero-img{
-    position: relative;
-    left: 30px;
-}
+
+    .hero-img {
+        position: relative;
+        left: 30px;
+    }
 
     .hero-container h1 {
         font-size: 2.5rem;
@@ -51,16 +54,51 @@
         max-width: 80%;
         margin: 0 auto;
     }
+
+    /* Categories */
+    .categories {
+        margin-top: 20px;
+
+    }
+
+    .categories-box {
+        flex-direction: column;
+        margin-top: ;
+        gap: 26px;
+    }
+
+    .cate-card {
+        padding: 10px 30px;
+    }
+
+    .cate-card h2 {
+        color: white;
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+
+    .categories-card-1 {
+        gap: 90px;
+    }
+
+    .categories-card-2 {
+        gap: 100px;
+    }
+
+    .categories-card-3 {
+        gap: 20px;
+    }
 }
 
 /* Responsibe for teb */
 @media screen and (min-width:641px) and (max-width:992px) {
 
     /* nav menu bar */
-    .nav-bar{
+    .nav-bar {
         margin-top: 0;
         margin-bottom: 20px;
     }
+
     .fa-bars {
         font-size: 1.5rem;
     }
@@ -70,6 +108,7 @@
         display: flex;
         flex-direction: column-reverse;
     }
+
     .hero-container {
         margin-top: 30px;
         margin: 0 auto;
@@ -78,21 +117,24 @@
     .hero-content {
         margin: 0 auto;
     }
-.hero-img{
-    position: relative;
-    left: 30px;
-}
 
+    .hero-img {
+        position: relative;
+        left: 30px;
+    }
+    .hero-box{
+        text-align: center;
+    }
     .hero-container h1 {
+        text-align: center;
         font-size: 2.5rem;
         font-weight: 700;
-        max-width: 80%;
-        margin-left: 0;
     }
 
     .hero-container p {
-        max-width: 100%;
-        text-align: justify;
+        max-width: 80%;
+        margin: 0 auto;
+        text-align: center;
         font-size: 0.8rem;
         line-height: 20px;
         padding-right: 50px;
@@ -109,6 +151,39 @@
 
     .hero-img {
         max-width: 100%;
-       position: relative;
+        position: relative;
+    }
+
+
+    /* Categories */
+    .categories {
+        margin-top: 20px;
+    }
+
+    .categories-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .cate-card {
+        padding: 10px 30px;
+    }
+
+    .cate-card h2 {
+        color: white;
+        font-size: 1.5rem;
+        font-weight: 500;
+    }
+
+    .categories-card-1 {
+        gap: 85px;
+    }
+
+    .categories-card-2 {
+        gap: 95px;
+    }
+
+    .categories-card-3 {
+        gap: 15px;
     }
 }
