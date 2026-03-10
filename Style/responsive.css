@@ -88,6 +88,13 @@
     .categories-card-3 {
         gap: 20px;
     }
+
+    /* Shoes */
+    .shoes-box{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 24px;
+}
 }
 
 /* Responsibe for teb */

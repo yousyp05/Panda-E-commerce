@@ -143,3 +143,31 @@ html {
     background-color: #3F07F8;
     gap: 30px;
 }
+
+/* Shoes */
+.shoes-container{
+    margin-top: 80px;
+}
+.shoes-box{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+.shoes-card {
+    text-align: center;
+    border: 2px solid #929292;
+   border-radius: 20px;
+   padding: 24px 20px;
+}
+.shoes-card p{
+    max-width: 92%;
+    margin: 0 auto;
+}
+.shoes-card h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 16px auto;
+}
+.shoes-card *{
+margin-bottom: 16px;
+}
