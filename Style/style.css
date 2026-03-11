@@ -40,14 +40,16 @@ html {
 }
 
 .btn {
+    text-align: center;
     color: #ffffff;
     background-color: #000000;
     border-radius: 6px;
     font-size: 1rem;
-    padding: 7px 10px;
+    padding: 12px 30px;
     cursor: pointer;
     border: none;
 }
+
 
 .flex {
     display: flex;
@@ -170,4 +172,52 @@ html {
 }
 .shoes-card *{
 margin-bottom: 16px;
+}
+
+
+/* Footer */
+.footer-container{
+    margin-top: 100px;
+}
+.footer{
+    padding:146px 246px ;
+    text-align: center;
+    background-color: #FFF2F1;
+}
+
+.footer h2{
+    color: #1F1F1F;
+    font-size: 1.875rem;
+    margin-bottom: 5px;
+}
+
+.footer p{
+    color: #707070;
+    font-size: 1rem;
+    margin-bottom: 16px;
+}
+
+input{
+    border: 1px solid;
+    border: none;
+    background-color: #FFFFFF;
+    height: 37px;
+    width: 500px;
+    padding: 35px 48px;
+}
+
+.footer-btn{
+    background-color: #FF136F;
+    color: white;
+    border: none;
+    padding: 18px 48px;
+    border-radius: 0 5px 5px 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.email{
+    font-size: 1.5rem;
+    color: #CCCCCC;
 }
